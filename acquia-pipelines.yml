@@ -1,0 +1,11 @@
+---
+version: 0.2.0
+strict_mode: true
+steps:
+- name: general-behaviors
+  type: script
+  script:
+  - nvm --version
+  - nvm install 4.4.1
+  - nvm use 4.4.1
+  - npm install color
