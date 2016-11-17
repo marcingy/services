@@ -9,3 +9,4 @@ steps:
   - nvm install 4.4.1
   - nvm use 4.4.1
   - npm install color
+  - touch 1234.text
