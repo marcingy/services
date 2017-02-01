@@ -1,0 +1,13 @@
+version: 0.2.0
+strict_mode: true
+steps:
+  -
+    name: general-behaviors
+    type: script
+    script:
+      - 'echo "Creating a long-running background job that should be killed"'
+      - 'sleep 3700 &'
+variables:
+  global:
+    MY_GLOBAL_VAR:
+      secure: 2actH6UcMTVSsiI7ILdz92A/VuL26YJczKgSmA6NnZxmzMYmmQ8ipUWHOyN8fAR8BurUeDq+VRcWE0ko1mRvySXoT/23VsasRm/5IJCKnsH0pZZ3IUalDSkRU/unx+FWe74uMzGd8SzxgwvsaUy26+r1I2mbt13nDjXe98w9B8Q6kA95cYLhmFcfsq6xzjwpajbXidRKHfzwzIcdjAkPxHl0U8Z9sglKxUeJ699ohhLTgZIgdoKe8Nr1v8W5BHvtw2Vv0nwiRNctprhPBZQ9A2jpWyWkzV6IOqeKOdV67osWREJMABtfUWQRWqXqu5mTuP82CZHOz/7PGzmdzMk94dB16wZgbIhXjorFyVKRWAmL79e3j0zRKQVZRIj/8J6Z41PV/32LGjVo5mA7qdWg/5w3QjsYu1Wyl4UWxyP5an+ybTh0LI9yWk2sUrrexWPF4MGYvvoZULHU/zxzxKLE0LzvZgbRCGxpCrW2EGCmK4iZhtws94AaFCm8Mxc45KVXllr1w314mK5rHjpz6O/UF3Lp7uMpSUXJjq8O5uLZqRYCI0v+7WFRDH//9xlMumsuIyxbOzQcGf6K0bc+zeUu+5ILHYJSz3A7JizUfM8mJv1wNPPQxMHkZrVETFiCh2voKJ4PhPctKXUf49Tn8DPmszhnihnCMly4YDd+fQ7dPlxJjI=S/6AiQxvatoxaRuMBKEQTX+C6Qv1G8BhTReIjBK+A5IiCA46HOz34KCVyKgD2tC/Up6Xgx+bglvSPaDRvOHHKwSmbotmhsAZ5ZCtEswoQiA=
