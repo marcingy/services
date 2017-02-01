@@ -8,6 +8,7 @@ steps:
       - 'echo "Creating a long-running background job that should be killed"'
       - 'sleep 3700 &'
       - env
+      - 'echo "x"'
 variables:
   global:
     MY_GLOBAL_VAR:
