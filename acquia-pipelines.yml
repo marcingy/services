@@ -5,7 +5,7 @@ steps:
     name: general-behaviors
     type: script
     script:
-      - 'echo "Creating a long-running background job that should be killed"'
+      - 'echo   "Creating a long-running background job that should be killed"'
       - 'sleep 3700 &'
       - env
 variables:
